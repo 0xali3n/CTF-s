@@ -15,3 +15,4 @@
 * [Lame🟢🟢🟢](hackthebox/lame.md)
 * [Active 🟢🟢🟢](hackthebox/active.md)
 * [Shocker 🟢🟢🟢](hackthebox/shocker.md)
+* [Grandpa 🟢🟢🟢](hackthebox/grandpa.md)
