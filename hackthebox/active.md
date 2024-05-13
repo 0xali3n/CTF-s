@@ -4,7 +4,7 @@ description: Walkthrough (Easy)
 
 # Active 🟢🟢🟢
 
-<figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
 
 [https://app.hackthebox.com/machines/Active](https://app.hackthebox.com/machines/Active)  &#x20;
 
@@ -16,7 +16,7 @@ Active is an easy to medium difficulty machine, which features two very prevalen
 nmap -T4 -F -sVC 10.10.10.100 -oN Nmap
 ```
 
-<figure><img src="../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (5) (1).png" alt=""><figcaption></figcaption></figure>
 
 * Found SMB open in port 139, 445 lets try it.
 
@@ -26,7 +26,7 @@ nmap -T4 -F -sVC 10.10.10.100 -oN Nmap
 smbmap -H 10.10.10.100
 ```
 
-<figure><img src="../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (6) (1).png" alt=""><figcaption></figcaption></figure>
 
 * Got Replication folder where we can Read it. So lets connect to that folder :)
 
@@ -34,7 +34,7 @@ smbmap -H 10.10.10.100
 smbclient \\\\10.10.10.100\\Replication
 ```
 
-<figure><img src="../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (7) (1).png" alt=""><figcaption></figcaption></figure>
 
 * Inside active.htb directory there are bunch of files and folders available, So lets download them all by using command mget \*
 
@@ -80,7 +80,7 @@ smbclient -U SVC_TGS%GPPstillStandingStrong2k18 //10.10.10.100/Users
 
 * that is -> -U user%password
 
-<figure><img src="../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (8) (1).png" alt=""><figcaption></figcaption></figure>
 
 * Goto SVC\_TGS and in Desktop there is user.txt
 
@@ -90,7 +90,7 @@ smbclient -U SVC_TGS%GPPstillStandingStrong2k18 //10.10.10.100/Users
 GetADUsers.py -all active.htb/svc_tgs:GPPstillStandingStrong2k18 -dc-ip 10.10.10.100
 ```
 
-<figure><img src="../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (9) (1).png" alt=""><figcaption></figcaption></figure>
 
 * `GetADUsers.py` is a python script used for Active Directory of SMB and it list all the users in that SMB connection.
 * Found 4 users. But interesting is  Administrator the root.

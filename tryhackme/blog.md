@@ -4,15 +4,15 @@ description: Walkthrough (Medium)
 
 # Blog 🟠🟠
 
+<figure><img src="../.gitbook/assets/image (20).png" alt=""><figcaption></figcaption></figure>
+
+[https://tryhackme.com/r/room/blog](https://tryhackme.com/r/room/blog)
+
 Billy Joel made a blog on his home computer and has started working on it.  It's going to be so awesome!
 
 Enumerate this box and find the 2 flags that are hiding on it!  Billy has some weird things going on his laptop.  Can you maneuver around and get what you need?  Or will you fall down the rabbit hole...
 
 In order to get the blog to work with AWS, you'll need to add MACHINE\_IP blog.thm to your /etc/hosts file.
-
-[https://tryhackme.com/r/room/blog](https://tryhackme.com/r/room/blog)
-
-<figure><img src="../.gitbook/assets/image (20).png" alt=""><figcaption></figcaption></figure>
 
 ### Q ) What CMS was Billy using?
 

@@ -4,7 +4,7 @@ description: Walkthrough (Easy)
 
 # Grandpa 🟢🟢🟢
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
 
 [https://app.hackthebox.com/machines/grandpa](https://app.hackthebox.com/machines/grandpa)&#x20;
 
@@ -16,7 +16,7 @@ Grandpa is one of the simpler machines on Hack The Box, however it covers the wi
 nmap -T4 -sVC 10.10.10.14 -oN Nmap
 ```
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 * Found only port 80 is open and running `IIS httpd 6.0`
 * Google `IIS httpd 6.0`  got me WebDAV '`ScStoragePathFromUrl'` Remote Buffer Overflow

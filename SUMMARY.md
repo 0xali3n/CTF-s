@@ -16,3 +16,4 @@
 * [Active 🟢🟢🟢](hackthebox/active.md)
 * [Shocker 🟢🟢🟢](hackthebox/shocker.md)
 * [Grandpa 🟢🟢🟢](hackthebox/grandpa.md)
+* [SwagShop 🟢🟢🟢](hackthebox/swagshop.md)

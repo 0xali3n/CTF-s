@@ -4,7 +4,7 @@ description: Walkthrough (Easy)
 
 # Shocker 🟢🟢🟢
 
-<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 Shocker, while fairly simple overall, demonstrates the severity of the renowned Shellshock exploit, which affected millions of public-facing servers.
 
@@ -16,7 +16,7 @@ Shocker, while fairly simple overall, demonstrates the severity of the renowned 
 nmap -T4 -sVC 10.10.10.56 -oN Nmap
 ```
 
-<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 * Found http and ssh in 2222 port open.
 * Lets try 1st for Directory busting.
@@ -110,7 +110,7 @@ User shelly may run the following commands on Shocker:
 
 Found that user can run perl command without root password as a sudo user.
 
-* Get to `gtfobins` and Found sudo for perl [here](https://gtfobins.github.io/gtfobins/perl/)
+* Go to `gtfobins` and Found sudo for perl [here](https://gtfobins.github.io/gtfobins/perl/)
 
 ```bash
 sudo perl -e 'exec "/bin/sh";'
@@ -118,6 +118,6 @@ sudo perl -e 'exec "/bin/sh";'
 
 * after running this command you get a root shell :)
 
-<figure><img src="../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
