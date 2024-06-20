@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Info](README.md)
+* [Welcome to My CTF Walkthrough Book](README.md)
 
 ## 🕸️ TryHackMe
 
